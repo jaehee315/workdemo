@@ -43,7 +43,23 @@
 
 ### 표만들기
 
+- |(vetical val) : 테이블 표현
+- : 정렬
+- (---)헤더와 셀 구분
+
+
 |  이름 |  주소 |     전화번호 |
 | :-----: | :-----: | :-----------: |
 | 홍길동 | 서울시 | 02-1234-1254 |
 | 여진구 | 경기도 | 031-123-4568 |
+
+### 코드(code)
+
+#### 1) 인라인 코드(inline code)
+- 백틱(`)으로 강조할 내용을 감싼다.
+repository에서 프로젝트의 설명을 부여해줄때 'READMe.md'을 사용한다.
+
+```java
+public static void main(String[] args) {
+  System.out.println("Hello java");
+}
