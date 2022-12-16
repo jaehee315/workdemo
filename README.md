@@ -67,3 +67,43 @@ repository에서 프로젝트의 설명을 부여해줄때 'READMe.md'을 사용
 public static void main(String[] args) {
   System.out.println("Hello java");
 }
+
+### 글자 강조
+
+**굵은 글씨**
+_이텔릭_
+_이텔릭_
+~~취소선~~
+
+<!— 실행 안됨 이유를 모르겠음—>
+
+<u>밑줄</u>
+
+### 링크(Links)
+
+<!— 깃허브 사이트에서는 앞에 내 아이디를 넣어줘서 사이트가 안뜸 —>
+
+[naver](https:www.naver.com/)
+
+<!—깃허브 사이트에 a.txt 페이지로 이동—>
+
+[link](a.txt)
+
+<!— 외부링크 사용시 —>
+
+다음 홈페이지 : <https://www.daum.net>
+
+### 이미지(images)
+
+![naver](https://s.pstatic.net/static/www/mobile/edit/20221214/cropImg_728x360_112955548973432846.jpeg)
+
+![box](images/sp.jfif)
+
+<!—이미지를 클릭했을때 하이퍼링크로 연동 —>
+
+[![daum](images/20200723055344399.png)](https://www.daum.net/)
+
+
+### 원시 HTML(Raw HTML)
+
+<img src='images/20200723055344399.png' alt='daum'>
